@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Potyzhniy Project</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <script type="text/javascript">
+        (function() {
+            // https://dashboard.emailjs.com/admin/account
+            emailjs.init({
+              publicKey: "ZiINAYTSMgTYObxal",
+            });
+        })();
+    </script>
+    <script type="text/javascript">
+        window.onload = function() {
+            document.getElementById('forma').addEventListener('submit', function(event) {
+                event.preventDefault();
+                // these IDs from the previous steps
+                emailjs.sendForm('service_j8qjlew', 'template_0myxuxy', this)
+                    .then(() => {
+                        console.log('SUCCESS!');
+                    }, (error) => {
+                        console.log('FAILED...', error);
+                    });
+            });
+        }
+    </script>
+    
+</head>
+<body>
+    <div class="box">
+        <header>
+            <div class="logo">
+                <img src="Logo Shape.png" alt="">
+                <h2 class="logo_h2">Boldo</h2>
+            </div>
+            <nav>
+                <a href="index.html"><h3 class="nav_h3">Product</h3></a>
+                <a href="index.html"><h3 class="nav_h3">Servises</h3>
+                <a href="index2.html"><h3 class="nav_h3">About</h3></a>
+                <a class="a1" href=""><button class="button_nav">Log in</button></a>
+            </nav>
+            <div class="header_text">
+                <h1>Save time by building  fast with Boldo Template </h1>
+                <h3 class="header_h3">
+                    Funding handshake buyer business-to-business metrics iPad partnership. First mover advantage innovator success deployment non-disclosure.
+                </h3>
+                <div class="header_button_box">
+                    <button class="button_header">
+                        <h3 class="button_h3">Buy Template</h3>
+                    </button>
+                    <button class="button_header1">
+                        <h3 class="button1_h3">Explore</h3>
+                    </button>
+                </div>
+            </div>
+            <div class="diagrama">
+                <div class="div_diagrama1">
+                    <div class="diagram_img1">
+                        <img class="diag_img" src="Group 255.png" alt="">
+                    </div>
+                    <div class="dia_1">
+                        <div class="diagrama_item">
+                            <div class="dd"></div>
+                            <div class="de"></div>
+                        </div>
+                        <div class="diagrama_item">
+                            <div class="dd"></div>
+                            <div class="da"></div>
+                        </div>
+                        <div class="diagrama_item">
+                            <div class="dd"></div>
+                            <div class="dr"></div>
+                        </div>
+                        <div class="diagrama_item">
+                            <div class="dd"></div>
+                            <div class="dt"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="div_diagrama2">
+                    <div class="diagram_img1">
+                        <img class="diag_img" src="Group 255.png" alt="">
+                    </div>
+                    <div class="diag_div">
+                            <div class="dy1"></div>
+                            <div class="dy2"></div>
+                            <div class="dy3"></div>
+                            <div class="dy4"></div>
+                            <div class="dy5"></div>
+                            <div class="dy6"></div>
+                            <div class="dy7"></div>
+                            <div class="dy8"></div>
+                    </div>
+                </div>
+                <div class="div_diagrama3">
+                    <div class="diagram_img1">
+                        <img class="diag_img" src="Group 255.png" alt="">
+                    </div>
+                    <div class="diag_div2">
+                        <img class="shape" src="Pie Graph.png" alt="">
+                        <div class="dia">
+                            <div class="dia_item"></div>
+                            <div class="dia_item"></div>
+                            <div class="dia_item"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="nizhny"></div> 
+        </header>
+        <main>
+            <div class="item_main1">
+                <div class="item_Text">
+                    <h3 class="man_h3">Our Servises</h3>
+                    <h2 class="man_h2">Handshake infographic mass market crowdfunding iteration.</h2>
+                </div>
+                <div class="div_explore">
+                <div class="explore">
+                    <img class="explar_img" src="Rectangle 1270.png" alt="">
+                    <div class="pyk">
+                    <h3 class="explo_h3">Cool feature title</h3>
+                    <h4 class="explo_h4">Learning curve network effects return on investment.</h4>
+                    <h3 class="page">Explore page→</h3>
+                    <div class="explore_palka"></div>
+                    </div>
+                </div>
+                <div class="explore">
+                    <img class="explar_img" src="Rectangle 1273.png" alt="">
+                    <div class="pyk">
+                    <h3 class="explo_h3">Even cooler feature</h3>
+                    <h4 class="explo_h4">Learning curve network effects return on investment.</h4>
+                    <h3 class="page">Explore page→</h3>
+                    <div class="explore_palka"></div>
+                    </div>
+                </div>
+                <div class="explore">
+                    <img class="explar_img" src="Rectangle 12701.png" alt="">
+                    <div class="pyk">
+                    <h3 class="explo_h3">Cool feature title</h3>
+                    <h4 class="explo_h4">Learning curve network effects return on investment.</h4>
+                    <h3 class="page">Explore page→</h3>
+                    </div>
+                </div>
+                </div>
+            </div>
+            <div class="item_main2">
+                <img class="i216" src= "Group 216.png" alt="">
+                <div class="tm2">
+                    <h2 class="connect">We connect our customers with the best, and help them keep up-and stay open.</h2>
+                    <div class="galka">
+                        <div class="gal">
+                            <img class="gal_img" src="Group 210.png" alt="">
+                            <h3 class="gal_h3">We connect our customers with the best.</h3>
+                        </div>
+                        <div class="gal">
+                            <img class="gal_img" src="Group 210.png" alt="">
+                            <h3 class="gal_h3">Advisor success customer launch party.</h3>
+                        </div>
+                        <div class="gal">
+                            <img class="gal_img" src="Group 210.png" alt="">
+                            <h3 class="gal_h3">We connect our customers with the best.</h3>
+                        </div>
+                    </div>
+                    <button class="gal_But"><h3 class="gh3">Start now</h3></button>
+                </div>
+            </div>
+            <div class="item_main3">
+                <div class="artem_loh">
+                    <h2 class="we_c">We connect our customers with the best, and help them keep up-and stay open.</h2>
+                    <div class="buttanu">
+                        <button class="bt1">
+                            <div class="pero1">
+                            </div>
+                            <h3 class="bt1_h3">We connect our customers with the best.</h3>
+                        </button>
+                        <button class="bt2">
+                            <div class="pero2"></div>
+                            <h3 class="bt2_h3">We connect our customers with the best.</h3>
+                        </button>
+                        <button class="bt3">
+                            <div class="pero3"></div>
+                            <h3 class="bt3_h3">We connect our customers with the best.</h3>
+                        </button>
+                    </div>
+                </div>
+                <img class="tetka" src="Group 281.png" alt="">
+            </div>
+        <section class="section1">
+            <div class="swiper">
+                <div class="tyt">
+                  <h2 class="sect1_h2">An enterprise template to ramp up your company website</h2>
+                  <div class="knopki">
+                    <button class="btn2"><p class="pp">←</p></button>
+                    <button class="btn1"><p class="pp">→</p></button>
+                </div>  
+                </div>
+                  <div class="swiper-wrapper">
+                    <div class="swiper-slide" id="one">
+                      <h3 class="trt_h3">“Buyer buzz partner network disruptive non-disclosure agreement business”</h3>
+                      <div class="trt_dif">
+                          <img class="dif_img" src="Ellipse 4.png" alt="">
+                          <div class="dif_text">
+                          <h3 class="dif_h3">Albus Dumbledore</h3>
+                          <h4 class="dif_h4">Manager @Howarts</h4>
+                          </div>
+                      </div>
+                    </div>
+                    <div class="swiper-slide" id="two">
+                      <h3 class="trt_h3">“Learning curve infrastructure value proposition advisor strategy user experience hypotheses investor.”</h3>
+                      <div class="trt_dif">
+                          <img class="dif_img" src="Ellipse.png" alt="">
+                          <div class="dif_text">
+                          <h3 class="dif_h3">Severus Snape</h3>
+                          <h4 class="dif_h4">Manager @Slatnah</h4>
+                          </div>
+                      </div>
+                    </div>
+                    <div class="swiper-slide" id="one">
+                      <h3 class="trt_h3">“Release facebook responsive web design business model canvas seed money monetization.”</h3>
+                      <div class="trt_dif">
+                          <img class="dif_img" src="Ellipse 4 (1).png" alt="">
+                          <div class="dif_text">
+                          <h3 class="dif_h3">Harry Potter</h3>
+                          <h4 class="dif_h4">Team Leader @ Gryffindor</h4>
+                          </div>
+                    </div>
+                </div>
+          </div>
+        </section>
+        <div class="section2">
+            <img class="section2_img" src="Image.png" alt="">
+            <div class="sec2">
+                <h2 class="sec2_text">We connect our customers with the best, and help them keep up-and stay open.</h2>
+                <div class="se2">
+                    <div class="se2_item">
+                        <h3 class="se_h3">We connect our customers with the best?</h3>
+                        <img class="se_img" src="Group 210.png" alt="">
+                        <div class="se_palka"></div>
+                    </div>
+                    <div class="se2_content">
+                        <h3 class="h3_content">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rem laudantium, placeat voluptas nobis quisquam ratione maiores fugiat molestiae</h3>
+                    </div>
+                    <div class="se2_item">
+                        <h3 class="se_h3">We connect our customers with the best?</h3>
+                        <img class="se_img" src="Group 210.png" alt="">
+                        <div class="se_palka"></div>
+                    </div>
+                    <div class="se2_content">
+                        <h3 class="h3_content">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rem laudantium, placeat voluptas nobis quisquam ratione maiores fugiat molestiae</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <section class="section3">
+            <div class="item_Text">
+                <h3 class="man_h3">Our Blog</h3>
+                <h2 class="man_h2">Value proposition accelerator product management venture</h2>
+            </div>
+            <div class="tri">
+                <div class="tri_item">
+                    <img src="Rectangle 1270.png" alt="">
+                    <div class="text_tri">
+                        <h3 class="pitch_h31">Category</h3><p class="pitch_p2">November 22, 2021</p>
+                    </div>
+                    <h3 class="h3_tri">Pitch termsheet backing validation focus release.</h3>
+                    <div class="item_pit1">
+                        <img src="Ellipse 11.png" alt="">
+                        <h3 class="pitch_h3_2">Chandler Bing</h3>
+                    </div>
+                </div>
+                <div class="tri_item">
+                    <img src="Rectangle 1270 (1).png" alt="">
+                    <div class="text_tri">
+                        <h3 class="pitch_h31">Category</h3><p class="pitch_p2">November 22, 2021</p>
+                    </div>
+                    <h3 class="h3_tri">Seed round direct mailing non-disclosure agreement graphical user interface rockstar.</h3>
+                    <div class="item_pit2">
+                        <img src="Ellipse 10.png" alt="">
+                        <h3 class="pitch_h3_2">Rachel Green</h3>
+                    </div>
+                </div>
+                <div class="tri_item">
+                    <img src="Rectangle 1270 (2).png" alt="">
+                    <div class="text_tri">
+                        <h3 class="pitch_h31">Category</h3><p class="pitch_p2">November 22, 2021</p>
+                    </div>
+                    <h3 class="h3_tri">Beta prototype sales iPad gen-z marketing network effects value proposition</h3>
+                    <div class="item_pit2">
+                        <img src="Ellipse 10 (1).png" alt="">
+                        <h3 class="pitch_h3_2">Monica Geller</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="load">
+                <h2 class="load_h2">Load more</h2>
+            </div>
+        </section>
+        <form class="footer_search" id="forma">
+            <div class="search_item">
+                <h2 class="search_h2">An enterprise template to ramp up your company website</h2>
+                <input class="email" name="email" type="text" placeholder="Your email adress">
+                <input class="start" type="submit" value="Start Now">
+            </div> 
+        </form>
+        <footer>
+            <div class="niz">
+                <div class="niz_item1">
+                    <div class="logo">
+                        <img src="Logo Shape2.png" alt="">
+                        <h2 class="logo_h21">Boldo</h2>
+                    </div>
+                    <h3 class="niz_h3">Social media validation business model canvas graphical user interface launch party creative facebook iPad twitter.</h3>
+                    <h3 class="niz_h3">All rights reserved.</h3>
+                </div>
+                <div class="niz_item">
+                    <div class="nniz_h3">Landings</div>
+                    <div class="min_h3">Home</div>
+                    <div class="min_h3">Products</div>
+                    <div class="min_h3">Servises</div>
+                </div>
+                <div class="niz_item">
+                    <div class="nniz_h3">Company</div>
+                    <div class="min_h3">Home</div>
+                    <div class="min_h3 hir">Careers</div><button class="Hir">Hiring!</button>
+                    <div class="min_h3">Servises</div>
+                </div>
+                <div class="niz_item">
+                    <div class="nniz_h3">Resourses</div>
+                    <div class="min_h3">Blog</div>
+                    <div class="min_h3">Products</div>
+                    <div class="min_h3">Servises</div>
+                </div>
+            </div>
+        </footer>
+    </main>
+    </div>
+    <script>
+        $(".se2_content").hide()
+        $(".se2_item").click(function(){
+            $(this).next(".se2_content").slideToggle()
+            $(this).children("se2_item").toggleClass("active")
+        })
+    </script>
+    <script>
+        var swiper = new Swiper(".swiper", {
+          effect: "coverflow",
+          grabCursor: true,
+          centeredSlides: true,
+          slidesPerView: "3",
+          coverflowEffect: {
+            rotate: 0,
+            stretch: -80,
+            depth: 100,
+            modifier: 1,
+            slideShadows: true,
+          },
+          pagination: {
+            el: ".swiper-pagination",
+          },
+          navigation: {
+            nextEl: ".btn1",
+            prevEl: ".btn2",
+          },
+        });
+      
+        </script>
+</body>
+</html>

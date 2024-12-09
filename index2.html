@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style2.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+<script type="text/javascript">
+    (function() {
+        // https://dashboard.emailjs.com/admin/account
+        emailjs.init({
+          publicKey: "ZiINAYTSMgTYObxal",
+        });
+    })();
+</script>
+<script type="text/javascript">
+    window.onload = function() {
+        document.getElementById('forma').addEventListener('submit', function(event) {
+            event.preventDefault();
+            // these IDs from the previous steps
+            emailjs.sendForm('service_j8qjlew', 'template_0myxuxy', this)
+                .then(() => {
+                    console.log('SUCCESS!');
+                }, (error) => {
+                    console.log('FAILED...', error);
+                });
+        });
+    }
+</script>
+</head>
+<body>
+    <div class="box">
+        <section>
+            <div class="logo">
+                <img src="Logo Shape2.png" alt="">
+                <h2 class="logo_h2">Boldo</h2>
+            </div>
+            <nav>
+                <a href="index.html"><h3 class="nav_h3">Product</h3></a>
+                <h3 class="nav_h3">Servises</h3>
+                <h3 class="nav_h3">About</h3>
+                <a class="a1" href="index2.html">
+                    <button class="button_nav">
+                        <h2 class="but_h2">Log In</h2>
+                </button>
+            </a>
+            </nav>
+        </section>
+        <header>
+            <div class="div_h1">
+                <h2 class="item_h2">Blog</h2>
+                <h1>Thoughts and words</h1>
+            </div>
+            <div class="pitch">
+                <img src="Rectangle 12701.png" alt="">
+                <div class="item_pitch">
+                    <h3 class="pitch_h3">Category</h3>     <p class="pitch_p">November 22, 2021</p>
+                    <h2 class="pitch_h2">Pitch termsheet backing validation focus release.</h2>
+                    <div class="item_pit">
+                        <img src="img/Ellipse 11.png" alt="">
+                        <h3 class="pitch_h3_2">Chandler Bing</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="palka"></div>
+            <h2 class="latest">Lates News</h2>
+            <div class="tri">
+                <div class="tri_item">
+                    <img src="Rectangle 1270.png" alt="">
+                    <div class="text_tri">
+                        <h3 class="pitch_h31">Category</h3><p class="pitch_p2">November 22, 2021</p>
+                    </div>
+                    <h3 class="h3_tri">Pitch termsheet backing validation focus release.</h3>
+                    <div class="item_pit1">
+                        <img src="Ellipse 11.png" alt="">
+                        <h3 class="pitch_h3_2">Chandler Bing</h3>
+                    </div>
+                </div>
+                <div class="tri_item">
+                    <img src="Rectangle 1270 (1).png" alt="">
+                    <div class="text_tri">
+                        <h3 class="pitch_h31">Category</h3><p class="pitch_p2">November 22, 2021</p>
+                    </div>
+                    <h3 class="h3_tri">Seed round direct mailing non-disclosure agreement graphical user interface rockstar.</h3>
+                    <div class="item_pit2">
+                        <img src="Ellipse 10.png" alt="">
+                        <h3 class="pitch_h3_2">Rachel Green</h3>
+                    </div>
+                </div>
+                <div class="tri_item">
+                    <img src="Rectangle 1270 (2).png" alt="">
+                    <div class="text_tri">
+                        <h3 class="pitch_h31">Category</h3><p class="pitch_p2">November 22, 2021</p>
+                    </div>
+                    <h3 class="h3_tri">Beta prototype sales iPad gen-z marketing network effects value proposition</h3>
+                    <div class="item_pit2">
+                        <img src="Ellipse 10 (1).png" alt="">
+                        <h3 class="pitch_h3_2">Monica Geller</h3>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="tri">
+            <div class="tri_item">
+                <img src="Rectangle 1271.png" alt="">
+                <div class="text_tri">
+                    <h3 class="pitch_h31">Category</h3><p class="pitch_p2">November 22, 2021</p>
+                </div>
+                <h3 class="h3_tri">Pitch termsheet backing validation focus release.</h3>
+                <div class="item_pit1">
+                    <img src="Ellipse 11.png" alt="">
+                    <h3 class="pitch_h3_2">Chandler Bing</h3>
+                </div>
+            </div>
+            <div class="tri_item">
+                <img src="Rectangle 1272.png" alt="">
+                <div class="text_tri">
+                    <h3 class="pitch_h31">Category</h3><p class="pitch_p2">November 22, 2021</p>
+                </div>
+                <h3 class="h3_tri">Seed round direct mailing non-disclosure agreement graphical user interface rockstar.</h3>
+                <div class="item_pit2">
+                    <img src="Ellipse 10.png" alt="">
+                    <h3 class="pitch_h3_2">Rachel Green</h3>
+                </div>
+            </div>
+            <div class="tri_item">
+                <img src="Rectangle 1273.png" alt="">
+                <div class="text_tri">
+                    <h3 class="pitch_h31">Category</h3><p class="pitch_p2">November 22, 2021</p>
+                </div>
+                <h3 class="h3_tri">Beta prototype sales iPad gen-z marketing network effects value proposition</h3>
+                <div class="item_pit2">
+                    <img src="Ellipse 10 (1).png" alt="">
+                    <h3 class="pitch_h3_2">Monica Geller</h3>
+                </div>
+            </div>
+            </div>
+            <div class="load">
+                <h2 class="load_h2">Load more</h2>
+            </div>
+            <footer>
+                <form class="footer_search" id="forma">
+                    <div class="search_item">
+                        <h2 class="search_h2">An enterprise template to ramp up your company website</h2>
+                        <input class="email" name="email" type="text" placeholder="Your email adress">
+                        <input class="start" type="submit" value="Start Now">
+                    </div> 
+                </form>
+                <div class="niz">
+                    <div class="niz_item1">
+                        <div class="logo">
+                            <img src="Logo Shape2.png" alt="">
+                            <h2 class="logo_h2">Boldo</h2>
+                        </div>
+                        <h3 class="niz_h3">Social media validation business model canvas graphical user interface launch party creative facebook iPad twitter.</h3>
+                        <h3 class="niz_h3">All rights reserved.</h3>
+                    </div>
+                    <div class="niz_item">
+                        <div class="nniz_h3">Landings</div>
+                        <div class="min_h3">Home</div>
+                        <div class="min_h3">Products</div>
+                        <div class="min_h3">Servises</div>
+                    </div>
+                    <div class="niz_item">
+                        <div class="nniz_h3">Company</div>
+                        <div class="min_h3">Home</div>
+                        <div class="min_h3 hir">Careers</div><button class="Hir">Hiring!</button>
+                        <div class="min_h3">Servises</div>
+                    </div>
+                    <div class="niz_item">
+                        <div class="nniz_h3">Resourses</div>
+                        <div class="min_h3">Blog</div>
+                        <div class="min_h3">Products</div>
+                        <div class="min_h3">Servises</div>
+                    </div>
+                </div>
+            </footer>
+            </header>
+    </div>
+</body>
+</html>
